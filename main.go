@@ -1,8 +1,11 @@
 package main
 
 import (
-	micro "github.com/micro/go-micro"
+	"context"
+	"fmt"
+
 	pb "github.com/hanlray/at-search/proto/search"
+	micro "github.com/micro/go-micro"
 )
 
 type service struct {
